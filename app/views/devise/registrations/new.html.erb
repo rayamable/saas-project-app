@@ -29,10 +29,11 @@
   <div class="form-group col-md-6 no-right-padding">
    <%= w.label :plan %>
    <%= w.select :plan, options_for_select(Plan.options, params[:plan]),{}, required: true, class: "form-control" %>
-   <div>
-     <% end %>
-     <br>
-     <%= f.submit t('.sign_up'), class: 'btn btn-primary' %>
-   </div>
+   
    <% end %>
-   <%= render 'devise/shared/links' %>
+   
+ </div>
+ <%= f.submit t('.sign_up'), class: 'btn btn-primary' %>
+ <% end %>
+
+ <%= render 'devise/shared/links' %>
