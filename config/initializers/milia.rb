@@ -5,16 +5,16 @@ Milia.setup do |config|
 
 # true if you wish to use a coupon-based option in your sign-up form
 # false to otherwise not expect a coupon attribute in the parameters
-  config.use_coupon = false
+config.use_coupon = false
 
 # true if you use recaptcha on your sign-up form;
   # be sure to include the gem 'recaptcha' in your Gemfile
 # false if you do not
-  config.use_recaptcha = false
+config.use_recaptcha = false
 
 # true if action after signing out is to return to the home (root) page
 # false to return to the sign-in form (devise default)
-  config.signout_to_root = true
+config.signout_to_root = true
 
 # true if you are using airbrake to be notified of exceptions
   # be sure to include the gem 'airbrake' in your Gemfile
@@ -28,13 +28,13 @@ Milia.setup do |config|
 
 # use invite_member for devise work-around to invite members
 # ASSUMES User model
-  config.use_invite_member = true
+config.use_invite_member = true
 
   # whitelist tenant params list
   # allows an app to expand the permitted attribute list
   # specify each attribute as a symbol
   # example: [:name]
-  # config.whitelist_tenant_params = []
+  config.whitelist_tenant_params = [:plan]
 
   # whitelist coupon params list
   # allows an app to expand the permitted attribute list
