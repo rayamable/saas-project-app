@@ -12,7 +12,6 @@ end
 
 validates_presence_of :name
 validates_uniqueness_of :name
-
 def self.create_new_tenant(tenant_params, user_params, coupon_params)
 
  tenant = Tenant.new(tenant_params)
