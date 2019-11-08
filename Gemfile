@@ -36,6 +36,10 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails'
 gem "font-awesome-rails"
+<<<<<<< HEAD
+=======
+gem 'loofah', '~> 2.3'
+>>>>>>> d1e188abb3061d94ef8be7e61bc5ceb51fd706b8
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
