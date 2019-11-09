@@ -65,7 +65,7 @@
 }
 
 .jumbotron {
-	background-image: asset-url('meeting5.jpg');
+	background-image: asset-url('meeting3.jpg');
 	text-align: center;
 	background-size: cover;
 	color: #fff;
@@ -78,13 +78,33 @@
 	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 
 	h2 {
-		font-size: 60px !important;
+		font-size: 45px !important;
 		.lead {
 			font-family: 'Helvetica Neue' !important;
-			font-size: 55px !important;
+			font-size: 30px !important;
 		}
 	}
 }
+
+.plan {
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.price {
+	font-weight: 700;
+	size: 120%;
+}
+
+.sign-up {
+	margin-top: 5px;
+}
+
+.extra {
+	color: #5cb85c;
+}
+
 
 .no-side-padding {
 	padding-left: 0;
